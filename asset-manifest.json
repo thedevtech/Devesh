@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Devesh/static/css/main.90be5137.chunk.css",
-    "main.js": "/Devesh/static/js/main.7fe5e358.chunk.js",
-    "main.js.map": "/Devesh/static/js/main.7fe5e358.chunk.js.map",
+    "main.js": "/Devesh/static/js/main.1ef3152e.chunk.js",
+    "main.js.map": "/Devesh/static/js/main.1ef3152e.chunk.js.map",
     "runtime-main.js": "/Devesh/static/js/runtime-main.bbeaaf5a.js",
     "runtime-main.js.map": "/Devesh/static/js/runtime-main.bbeaaf5a.js.map",
     "static/css/2.3c03f26f.chunk.css": "/Devesh/static/css/2.3c03f26f.chunk.css",
     "static/js/2.7f20ca75.chunk.js": "/Devesh/static/js/2.7f20ca75.chunk.js",
     "static/js/2.7f20ca75.chunk.js.map": "/Devesh/static/js/2.7f20ca75.chunk.js.map",
     "index.html": "/Devesh/index.html",
-    "precache-manifest.74203d3b7db6d8a11f3458d5dc53a9e5.js": "/Devesh/precache-manifest.74203d3b7db6d8a11f3458d5dc53a9e5.js",
+    "precache-manifest.3992956a30650729cd8c9169b46e5ee4.js": "/Devesh/precache-manifest.3992956a30650729cd8c9169b46e5ee4.js",
     "service-worker.js": "/Devesh/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/Devesh/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.90be5137.chunk.css.map": "/Devesh/static/css/main.90be5137.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.7f20ca75.chunk.js",
     "static/css/main.90be5137.chunk.css",
-    "static/js/main.7fe5e358.chunk.js"
+    "static/js/main.1ef3152e.chunk.js"
   ]
 }
