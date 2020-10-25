@@ -1,0 +1,24 @@
+.contact_container {
+    height:700px;
+    width:25%;
+    margin:25px auto;
+    border:1px solid #B40431;
+}
+.contact_image {
+    width:100%;
+    height:200px;
+  
+    margin: 0 auto;
+    margin-bottom: 20px;;
+    text-align: center;
+}
+.contact_image_image {
+    object-fit: fill;
+    height: 180px;
+    width: 286px;
+    
+}
+.contact_heading {
+    padding-top:50px;
+    text-align: center;
+}

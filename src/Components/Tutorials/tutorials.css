@@ -1,0 +1,57 @@
+.tutorials_column1 {
+    display:flex
+}
+.tutorials_name {
+    text-align: center;
+}
+
+.tutorial_container {
+    height:auto;
+    width:30%;
+    padding:5px;
+    margin:10px;
+    text-align:center;
+
+}
+.tutorial_container:hover {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.tutorials_h1 {
+    border-bottom: 5px solid black;
+    padding:10px;
+}
+.tutorial_button {
+    padding: 8px;
+    margin:5px;
+    border:0px solid;
+    border-radius:5px;
+}
+.beginner {
+    background-color: greenyellow;
+    color:black;
+}
+.intermediate {
+    background-color:yellow;
+    color:black;
+}
+.advance {
+    background-color:red;
+    color:white;
+}
+.tutorial_file {
+    background-color: #B40431;
+    width:70%;
+    color:white;
+    padding:5px;
+    margin:3px;
+    border: 0px;
+    border-radius: 5px;;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="tutorials_container"] {
+      width: 100%;
+    }
+    
+  }

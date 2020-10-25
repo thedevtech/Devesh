@@ -1,0 +1,32 @@
+.quote {
+    height: auto;
+    width:50%;
+    margin:0 auto;
+    background-color: #B40431;
+    margin-top:70px;
+    border-radius: 30px;
+    color:white;
+}
+.quote:hover {
+    background-color: white;
+    color:#B40431;
+    border: 1px solid #B40431;
+}
+.quote_thoughts {
+    width:70%;
+    height:auto;
+    padding:50px;
+    margin:0 auto;
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="quote"] {
+      width: 80%;
+    }
+    [class*="quote_thoughts"] {
+       padding: 25px;
+        }
+  }

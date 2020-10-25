@@ -1,0 +1,47 @@
+/*<SocialIcon url="http://twitter.com/jaketrent" />
+*/
+.social {
+    width:75%;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.social_container {
+    text-align: center;
+    color:#B40431;
+}
+.social_image {
+    height: auto;
+    width:300px;
+    margin:0 auto;
+    padding:10px;
+}
+.social_image_image {
+    border-radius: 200px;
+    border:5px solid black;
+}
+.social_icons {
+    width:100%;
+    padding:15px;
+    margin:0 auto;
+    display:flex;
+    text-align: center;
+    padding-left: 400px;
+}
+.twitter, .instagram, .github,.dev {
+    padding:15px;
+    
+}
+.social_greetingd {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="twitter, instagram, github,dev"] {
+     margin:0 auto;
+    }
+    [class*="social_icons"]{
+        padding-left: 10px;
+    }
+  }

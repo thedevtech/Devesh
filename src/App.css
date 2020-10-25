@@ -1,0 +1,9 @@
+.footer_line {
+  border: 1px solid black;
+}
+.temporary {
+  height:50%;
+  width:100%;
+  background-color: khaki;
+  text-align: center;
+}
