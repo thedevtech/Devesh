@@ -9,7 +9,7 @@ const SocialCorner = () => {
         <div className="social">
           <div className="social_container">
               <div className="social_image">
-                <img alt="Devesh Korde" src="public/Images/devesh.jpg" className="social_image_image"></img>
+                <img alt="Devesh Korde" src="https://github.com/Pre-Dev/Devesh/blob/main/public/Images/devesh.jpg" className="social_image_image"></img>
               </div>
               <div className="social_greetings" >
                 <h1>Wanna Talk To me?</h1>
