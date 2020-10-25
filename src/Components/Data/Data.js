@@ -1,11 +1,12 @@
 import React from 'react';
 import './data.css';
+import gog from './gog.png';
 
 const Data = ({ onHireMeClick }) => {
     return (
         <div className="data">
             <div className="data_image">
-            <img alt="Laptop" src="https://github.com/Pre-Dev/Devesh/blob/main/public/Images/gog.png"></img>
+            <img alt="Laptop" src={gog}></img>
             </div>
             <div className="data_info">
                 <p>
