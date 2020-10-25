@@ -5,7 +5,7 @@ const Data = ({ onHireMeClick }) => {
     return (
         <div className="data">
             <div className="data_image">
-            <img alt="Laptop" href="%PUBLIC_URL%/gog.png" height="auto" width="450px"></img>
+            <img alt="Laptop" href="%PUBLIC_URL%/Images/gog.png" height="auto" width="450px"></img>
             </div>
             <div className="data_info">
                 <p>
