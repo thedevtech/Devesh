@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3eee4594bef46590401ee0e275b60919",
+    "revision": "45f356f0d00683913415eca12d33a6ab",
     "url": "/Devesh/index.html"
   },
   {
-    "revision": "e430ca54b81a599030ab",
+    "revision": "0200ac19e5263f4f7f56",
     "url": "/Devesh/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "717aa32057cfe6d8f166",
-    "url": "/Devesh/static/css/main.90be5137.chunk.css"
+    "revision": "1a176205e9aeb47c3141",
+    "url": "/Devesh/static/css/main.017fa6c7.chunk.css"
   },
   {
-    "revision": "e430ca54b81a599030ab",
-    "url": "/Devesh/static/js/2.a85e7999.chunk.js"
+    "revision": "0200ac19e5263f4f7f56",
+    "url": "/Devesh/static/js/2.25df7975.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/Devesh/static/js/2.a85e7999.chunk.js.LICENSE.txt"
+    "url": "/Devesh/static/js/2.25df7975.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "717aa32057cfe6d8f166",
-    "url": "/Devesh/static/js/main.239bd50e.chunk.js"
+    "revision": "1a176205e9aeb47c3141",
+    "url": "/Devesh/static/js/main.6a064616.chunk.js"
   },
   {
     "revision": "fad679d8d5b7499e8568",
