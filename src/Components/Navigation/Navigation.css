@@ -13,9 +13,9 @@
   }
   
   .navigation_button {
-    height:100%;
-    width:auto;
-    padding: 5px;
+    height:auto;
+    width:100px;
+    padding: none;
     background-color: transparent;
     color:white;
     text-align:center;
@@ -31,6 +31,19 @@
   .navigation_button:hover {
     color:crimson;
   }
+  .nav_ham_button {
+    height:auto;
+    padding: none;
+    background-color: transparent;
+    color:white;
+    text-align:center;
+    border:0px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transform: rotate(180);
+  }
   
   .logo {
       float:left;
@@ -42,16 +55,22 @@
       text-decoration: none;
       font-size: x-large;
   }
+  #hamburger {
+    float: right;
+  }
+
  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    [class*="link"] {
-      width: 25%;
-    }
     [class*="logo"] {
-        width: 100%;
+        width: auto;
         }
         [class*="navigation_button"]{
-          padding:0px;
-          padding-bottom: 10px;;
+          display: none;
+        }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For web: */
+        [class*="nav_ham_button"]{
+          display: none;
         }
   }
