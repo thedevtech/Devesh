@@ -27,15 +27,13 @@
     height:400 px;
   }
   .hire {
-    background-color: #940808;
-    color:white;
+    background-image: linear-gradient(45deg,#FF00BF,#0080FF);
     padding:10px;
     border-radius:15px ;
     border:none;
   }
   .hire:hover {
     background-color:white;
-    color:#B40431;
     font-size: x-large;
   }
   button:focus {
@@ -47,7 +45,6 @@
   }
   .introduction_link:hover {
     text-decoration: none;
-    color:#B40431;
   }
 
   @media only screen and (max-width: 768px) {

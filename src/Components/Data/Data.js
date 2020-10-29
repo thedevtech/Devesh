@@ -17,7 +17,6 @@ const Data = ({ onHireMeClick }) => {
                 </p>
                 <div className="data_buttons">
                     <button className="data_button"><a href="https://instagram.com/its_deveshkorde.official?igshid=119szo18uw9av" className="data_link"> Know More</a></button>
-                    <button className="data_button_center" onClick={onHireMeClick}>Hire as a Mentor</button>
                     <button className="data_button"><a href="https://github.com/ParenthesesLearning" className="data_link">View Github Profile</a></button>
                 </div>
                 

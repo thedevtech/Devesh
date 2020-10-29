@@ -15,7 +15,7 @@
     padding:10px;
     margin:5px;
     text-align: center;
-    background-color: #B40431;
+    background-image: linear-gradient(45deg,#FF00BF,#0080FF);
     color:white;
     border:0px solid black;
     border-radius: 10px;
@@ -34,13 +34,11 @@
 }
 .data_button:hover {
     background-color: white;
-    color:#B40431;
     border:0.9px solid black;
     border-radius: 10px
 }
 .data_button_center:hover {
     color:white ;
-    background-color:#B40431;
     border:0px;
 }
 .data_link {
@@ -49,7 +47,6 @@
 }
 .data_link:hover {
     text-decoration: none;
-    color:#B40431;
 }
 
 @media only screen and (max-width: 768px) {
@@ -68,3 +65,5 @@
         margin-left:25px;
     }
 }
+/*                    <button className="data_button_center" onClick={onHireMeClick}>Hire as a Mentor</button> 
+*/
