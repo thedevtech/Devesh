@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
   }
   .link {
     float: right;
@@ -17,11 +17,10 @@
     width:100px;
     padding: none;
     background-color: transparent;
-    color:white;
+    color:black;
     text-align:center;
     border:0px;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     padding-left:50px;
@@ -29,17 +28,23 @@
     font-size:large;
   }
   .navigation_button:hover {
-   color:#8258FA;
+   color:rgb(253, 6, 68);
     }
+    .navigation_button:focus{
+      outline:0px;
+    }
+
+  .nav_font {
+    color:rgb(253, 6, 68);
+  }
   .nav_ham_button {
     height:auto;
     padding: none;
     background-color: transparent;
-    color:white;
+    color:black;
     text-align:center;
     border:0px;
     display: block;
-    color: white;
     text-align: center;
     text-decoration: none;
     transform: rotate(180);
@@ -48,7 +53,7 @@
   .logo {
       float:left;
       display: block;
-      color: white;
+      color: black;
       text-align: center;
       padding: 14px 16px;
       padding-left:50px;
@@ -58,6 +63,9 @@
   #hamburger {
     float: right;
   }
+  .nav_ham_button:focus{
+    outline:0px;
+}
 
  @media only screen and (max-width: 768px) {
     /* For mobile phones: */

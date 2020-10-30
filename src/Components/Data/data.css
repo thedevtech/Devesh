@@ -15,8 +15,7 @@
     padding:10px;
     margin:5px;
     text-align: center;
-    background-image: linear-gradient(45deg,#FF00BF,#0080FF);
-    color:white;
+    background-color:rgb(253, 6, 68);
     border:0px solid black;
     border-radius: 10px;
 }
@@ -33,8 +32,7 @@
     outline:0;
 }
 .data_button:hover {
-    background-color: white;
-    border:0.9px solid black;
+    background-color: red;
     border-radius: 10px
 }
 .data_button_center:hover {

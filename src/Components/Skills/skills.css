@@ -8,6 +8,8 @@
 
 .skills_heading{
     text-align: center;
+    color:rgb(253, 6, 68);
+
     
 }
 .skills_logo {
@@ -36,9 +38,6 @@
     border:0px solid ;
     text-align: center;
     border-radius: 50px;
-}
-.skills_heading {
-    color:#8258FA;
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
