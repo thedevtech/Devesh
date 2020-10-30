@@ -9,7 +9,7 @@ const Introduction = () => {
                 <div className="intro_content">
                     <p>Hello folks!</p>
                     <h1>I am Devesh Korde</h1>
-                    <h3 className="intro_heading">And I am a Programmer</h3>
+                    <h3 className="intro_heading">And I'm a <br></br> Programmer</h3>
                 </div>
 
             </div>

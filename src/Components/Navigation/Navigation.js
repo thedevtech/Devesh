@@ -8,7 +8,7 @@ const Navigation = ({ onHomeChange, onBlogChange, onTutorialChange, onServiceCha
         <div>
             <div className="nav-items">
                 <ul type="none" className="navigation">
-                    <li className="logo">Deve<font color="reddish pink">sh</font> Korde</li>
+                    <li className="logo">Devesh <font color="reddish pink">Korde</font> </li>
                     <li className="logo" id="hamburger"><button className="nav_ham_button" onClick={onHamburgerInput}> 
                     <i>.</i>
                     <i>.</i>
