@@ -3,7 +3,7 @@ import './Navigation.css';
 
 
 
-const Navigation = ({ onHomeChange, onBlogChange, onTutorialChange, onServiceChange, onHamburgerInput }) => {
+const Navigation = ({ onHomeChange, onBlogChange, onTutorialChange, onServiceChange, onHamburgerInput, onDownloadChange }) => {
     return(
         <div>
             <div className="nav-items">
@@ -14,6 +14,7 @@ const Navigation = ({ onHomeChange, onBlogChange, onTutorialChange, onServiceCha
                     <i>.</i>
                     <i>.</i>
                     </button></li>
+                    <li className="link"><button className="navigation_button" onClick={ onDownloadChange }>Downloads</button></li>
                     <li className="link" ><button className="navigation_button" onClick={ onServiceChange }>Services</button></li>
                     <li className="link"><button className="navigation_button" onClick={ onTutorialChange }>Tutorials</button></li>
                     <li className="link"><button className="navigation_button" onClick={ onBlogChange }>Blogs</button></li>

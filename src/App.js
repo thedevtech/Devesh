@@ -10,7 +10,9 @@ import Blog from './Components/Blogs/Blog';
 import Tutorials from './Components/Tutorials/Tutorials';
 import Hamburger from './Components/Hamburger/Hamburger';
 import Service from './Components/Service/Service';
+import Downloads from './Components/Downloads/Download';
 import './App.css';
+
 
 
 class App extends Component {
@@ -38,6 +40,9 @@ class App extends Component {
   onHamburgerInput(){
     this.setState({ route:'Hamburger'})
   }
+  onDownloadChange(){
+    this.setState({ route:'Downloads'})
+  }
 render(){
   return(
     <div>
@@ -47,6 +52,7 @@ render(){
       onTutorialChange={this.onTutorialChange.bind(this)}
       onServiceChange={this.onServiceChange.bind(this)}
       onHamburgerInput={this.onHamburgerInput.bind(this)}
+      onDownloadChange={this.onDownloadChange.bind(this)}
       />
     
       {(() => {
@@ -72,6 +78,7 @@ render(){
                   onBlogChange={this.onBlogChange.bind(this)}
                   onTutorialChange={this.onTutorialChange.bind(this)}
                   onServiceChange={this.onServiceChange.bind(this)}
+                  onDownloadChange={this.onDownloadChange.bind(this)}
                   />
                   <SocialCorner /> 
                 </div>
@@ -95,6 +102,15 @@ render(){
               return (
                 <div>
                   <Service />
+                </div>
+              )
+            } 
+            else if (this.state.route === 'Downloads') {
+              return (
+                <div>
+                  <Downloads />
+                  <hr></hr>
+                  <SocialCorner />
                 </div>
               )
             } 

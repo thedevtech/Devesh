@@ -1,5 +1,6 @@
 import React from 'react';
 import './data.css';
+
 const Data = ({ onHireMeClick }) => {
     return (
         <div className="data">
@@ -10,7 +11,7 @@ const Data = ({ onHireMeClick }) => {
                 <p>
                   <b>Hey Folks! Devesh Korde this side. Glad to see you, that you have taken a minute and looked into my website.</b>
                   <br></br>
-                  I am currently pursuing my BTech in Electronics and Telecommunication from the autonomous institute Government College of Engineering Aurangabad.
+                  I am currently pursuing my BTech in Electronics and Telecommunication from an autonomous institute Government College of Engineering Aurangabad.
                   I am a Full Stack Web Developer and looking for any freelancing projects or work. For me coding became the most important thing 
                   since the day i wrote my first "Hello World" program.
                   <br></br>
