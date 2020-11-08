@@ -2,12 +2,14 @@
     background-color:white;
     padding:1px;
     background:
-linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
-background-size: 3900px 2000px;
-background-color: #EC173A;
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
 }
 .intro_margin {
     height:auto;
@@ -16,7 +18,7 @@ background-color: #EC173A;
     padding:50px;
     margin-top:10px;
     margin-bottom: 15px;
-    color:black;
+    color:white;
     z-index: 2;
 
 }
@@ -32,7 +34,5 @@ background-color: #EC173A;
         }
         [class *="introduction"]{
             padding:0px;
-            background-size: 1000px 1000px;
-
         }
   }
