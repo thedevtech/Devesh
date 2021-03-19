@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/Devesh/static/css/main.e6a6a464.chunk.css",
-    "main.js": "/Devesh/static/js/main.08b1c72e.chunk.js",
-    "main.js.map": "/Devesh/static/js/main.08b1c72e.chunk.js.map",
+    "main.css": "/Devesh/static/css/main.ced5dc5a.chunk.css",
+    "main.js": "/Devesh/static/js/main.0a549266.chunk.js",
+    "main.js.map": "/Devesh/static/js/main.0a549266.chunk.js.map",
     "runtime-main.js": "/Devesh/static/js/runtime-main.bbeaaf5a.js",
     "runtime-main.js.map": "/Devesh/static/js/runtime-main.bbeaaf5a.js.map",
     "static/css/2.3c03f26f.chunk.css": "/Devesh/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.da03eb56.chunk.js": "/Devesh/static/js/2.da03eb56.chunk.js",
-    "static/js/2.da03eb56.chunk.js.map": "/Devesh/static/js/2.da03eb56.chunk.js.map",
+    "static/js/2.04a4bd58.chunk.js": "/Devesh/static/js/2.04a4bd58.chunk.js",
+    "static/js/2.04a4bd58.chunk.js.map": "/Devesh/static/js/2.04a4bd58.chunk.js.map",
     "index.html": "/Devesh/index.html",
-    "precache-manifest.fdda3d8bd3a8cdc2619ff596281b6821.js": "/Devesh/precache-manifest.fdda3d8bd3a8cdc2619ff596281b6821.js",
+    "precache-manifest.a58fdf543b6affef7fdb884e34434ba1.js": "/Devesh/precache-manifest.a58fdf543b6affef7fdb884e34434ba1.js",
     "service-worker.js": "/Devesh/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/Devesh/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.e6a6a464.chunk.css.map": "/Devesh/static/css/main.e6a6a464.chunk.css.map",
-    "static/js/2.da03eb56.chunk.js.LICENSE.txt": "/Devesh/static/js/2.da03eb56.chunk.js.LICENSE.txt",
+    "static/css/main.ced5dc5a.chunk.css.map": "/Devesh/static/css/main.ced5dc5a.chunk.css.map",
+    "static/js/2.04a4bd58.chunk.js.LICENSE.txt": "/Devesh/static/js/2.04a4bd58.chunk.js.LICENSE.txt",
     "static/media/DvL.png": "/Devesh/static/media/DvL.052ec18f.png",
     "static/media/Javascript.pdf": "/Devesh/static/media/Javascript.4d2413a9.pdf",
     "static/media/Stackoverflow C++.pdf": "/Devesh/static/media/Stackoverflow C++.275f1f77.pdf",
+    "static/media/Navigation.css": "/Devesh/static/media/code.5284da6e.jpg",
     "static/media/cpp.pdf": "/Devesh/static/media/cpp.c39b9942.pdf",
-    "static/media/devesh.jpg": "/Devesh/static/media/devesh.80218fc0.jpg"
+    "static/media/contact.css": "/Devesh/static/media/devesh.453a2a29.jpeg",
+    "static/media/gog.jpeg": "/Devesh/static/media/gog.d394f549.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.bbeaaf5a.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.da03eb56.chunk.js",
-    "static/css/main.e6a6a464.chunk.css",
-    "static/js/main.08b1c72e.chunk.js"
+    "static/js/2.04a4bd58.chunk.js",
+    "static/css/main.ced5dc5a.chunk.css",
+    "static/js/main.0a549266.chunk.js"
   ]
 }
