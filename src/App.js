@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
-import Navigation from './Components/Navigation/Navigation';
-import Data from './Components/Data/Data';
-import Skills from './Components/Skills/Skills';
-import SocialCorner from './Components/SocialCorner/SocialCorner';
-import Promotion from './Components/Promotion/Promotion';
+import renderElements from './renderElements';
+import Blog from './Components/Blogs/Blog';
+import Contact from './Components/Contact/Contact';
+import Download from './Components/Downloads/Download';
+import Hamburger from './Components/Hamburger/Hamburger';
+import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 import './App.css';
 
 
 const App = () => {
   return(
     <div> 
-      <Navigation />
-      <Data />
-      <Skills />
-      <SocialCorner />
-      <hr></hr>
-      <Promotion />
+      <Router>
+        <Switch>
+          <Route path="/blogs" component={Blog} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/downloads" component={Download} />
+          <Route path="/hamburger" component={Hamburger} />
+          <Route path="/" component={renderElements} /> 
+        </Switch>
+      </Router>
     </div>
     
   )

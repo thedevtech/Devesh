@@ -1,24 +1,25 @@
-.contact_container {
-    height:700px;
-    width:25%;
-    margin:25px auto;
-    border:1px solid #B40431;
+.contact {
+    height:600px;
+    width:400px;
+    background-color: transparent;
+    border:2.5px solid #0e2d3b;
+    border-radius:25px;
+    margin:0 auto;
+    margin-top:25px;
 }
 .contact_image {
-    width:100%;
-    height:200px;
-  
-    margin: 0 auto;
-    margin-bottom: 20px;;
-    text-align: center;
+    height:400px;
+    width:90%;
+    background-color: transparent;
+    margin:0 auto;
+    margin-top:10px;
+    background-image: url('./devesh.jpeg');
+    background-size: cover;
 }
-.contact_image_image {
-    object-fit: fill;
-    height: 180px;
-    width: 286px;
-    
-}
-.contact_heading {
-    padding-top:50px;
-    text-align: center;
+.contact_empty {
+    height:25px;
+    width:97%;
+    background-color: transparent;
+    margin:0 auto;
+    border-bottom: 1px solid #0e2d3b;
 }

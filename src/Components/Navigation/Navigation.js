@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navigation.css';
+import { Link } from 'react-router-dom';
 
 
 function Navigation() {
@@ -15,15 +16,17 @@ function Navigation() {
                 </div>
                 <div className="ul_tabs">
                     <ul type="none" className="nav_ul">
-                        <li className="ul_link">Home</li>
-                        <li className="ul_link">Blogs</li>
-                        <li className="ul_link">Contact</li>
-                        <li className="ul_link">Libraries</li>
+                        <Link to="/home" style={{ textDecoration: 'none', color: 'white' }} ><li className="ul_link">Home</li></Link> 
+                        <Link to="/blogs" style={{ textDecoration: 'none', color: 'white' }}> <li className="ul_link">Blogs</li> </Link> 
+                        {/*<Link to="/contact" style={{ textDecoration: 'none', color: 'white' }}><li className="ul_link">Contact</li></Link>*/}
+                        <Link to="/downloads" style={{ textDecoration: 'none', color: 'white' }}><li className="ul_link">Download</li></Link>
+                       <Link to="/hamburger"  style={{ textDecoration: 'none', color: 'white' }}>
                         <li className="logo" id="hamburger"><button className="nav_ham_button" > 
-                        <i>|</i>
-                        <i>|</i>
-                        <i>|</i>
-                        </button></li>
+                            <i>|</i>
+                            <i>|</i>
+                            <i>|</i>
+                            </button></li>
+                       </Link> 
                         </ul>
                 </div>
             </div>

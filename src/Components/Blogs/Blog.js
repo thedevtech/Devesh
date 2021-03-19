@@ -13,7 +13,7 @@ const Blog = () => {
                <button  className="blog_button"><a  className="blog_link" href="https://dev.to/deveshkorde/why-do-a-dark-theme-is-best-than-the-ordinary-one-3928">View Blog</a></button>
             </div>
             </div>
-        </div>     
+        </div>    
     );
 }
 
