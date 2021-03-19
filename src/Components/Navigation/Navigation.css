@@ -1,3 +1,153 @@
+.navigation_image {
+  height:100vh;
+  width:100%;
+  background-image: url('./code.jpg');
+  background-size: cover;
+}
+.top_navigation {
+  height:90px;
+  background-color: transparent;
+  display: flex;
+  padding-top:7px;
+  margin:0 auto;
+  border-bottom:1px solid #feaf00;
+}
+.ul_logo {
+  height: auto;
+  width:20%;
+  background-color: transparent;
+  margin-left: 15px;
+  color: white;
+  
+}
+.ul_empty{
+  height:100px;
+  width:33%;
+  background-color: transparent;
+}
+.ul_tabs {
+  height:100px;
+  width:44%;
+  background-color: transparent;
+}
+.nav_ul{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+  color:white;
+}
+.empty_space {
+  height:200px;
+  width:100%;
+  background-color: transparent;
+}
+.information {
+  height:105px;
+  width:100%;
+  background-color: transparent;
+  font-size: x-large;
+}
+.info_data {
+  height:100%;
+  width:40%;
+  background-color: transparent;
+  margin:0 auto; 
+  padding:10px;
+  color:white;
+  font-size: x-large;
+}
+.nav_buttons {
+  height:50px;
+  width:40%;
+  background-color: transparent;
+  margin:0 auto;
+  margin-top:15px;
+  justify-content: space-evenly;
+  display:flex
+}
+.nav_buttons_tab {
+  height:100%; 
+  margin-left:25px;
+  background-color: transparent;
+  border:0px;
+  color:white;
+  cursor: pointer;
+}
+.know-more {
+  border-bottom :1px solid #feaf00;
+}
+.know-more:hover {
+  background-color: #feaf00;
+  color:black;
+  border: 0px;
+}
+.code-with-me {
+  background-color: #feaf00;
+  color:black;
+}
+.code-with-me:hover {
+  background-color: transparent;
+  color:white;
+  border-bottom :1px solid #feaf00;
+
+}
+.nav_buttons_tab:focus {
+  outline:none;
+}
+.nav_ham_button {
+  height:auto;
+  padding: none;
+  background-color: transparent;
+  color:white;
+  text-align:center;
+  border:0px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transform: rotate(180);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="ul_link"] {
+   display:none;
+  }
+  [class*="ul_logo"] {
+    width:80%;
+   }
+   [class*="empty_space"] {
+    height:50px;
+   }
+   [class*="information"]{
+     height:300px;
+   }
+   [class*="ul_empty"] {
+    width:0%;
+   }
+   [class*="info_data"]{
+     margin:0px;
+     width:95%;
+   }
+   [class*="nav_buttons"]{
+     width:auto;
+   }
+   [class*="code-with-me"]{
+    margin-left:0px;
+    margin-right:10px;
+  }
+   
+}
+@media only screen and (min-width:786px){
+  [class*="nav_ham_button"]{
+    display: none;
+  }
+}
+
+
+
+
+/* OLD CODE :- ( Let's Grow )
+ 
 .nav-items {
     text-decoration: none;
 }
@@ -68,8 +218,7 @@
 }
 
  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="logo"] {
+   For mobile phones:   [class*="logo"] {
         width: auto;
         }
         [class*="navigation_button"]{
@@ -77,8 +226,8 @@
         }
   }
   @media only screen and (min-width: 768px) {
-    /* For web: */
+   For web: 
         [class*="nav_ham_button"]{
           display: none;
         }
-  }
+  }*/

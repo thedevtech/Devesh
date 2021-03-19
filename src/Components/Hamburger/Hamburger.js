@@ -12,7 +12,6 @@ const Hamburger = ({ onHomeChange, onBlogChange, onTutorialChange, onServiceChan
                     <li className="hamburger"><button className="ham_button" onClick={ onTutorialChange }>Tutorials</button></li>
                     <li className="hamburger"><button className="ham_button" onClick={ onServiceChange }>Services</button></li>
                     <li className="hamburger"><button className="ham_button" onClick={ onDownloadChange }>Downloads</button></li>
-        
                 </ul>               
             </div>
         </div>

@@ -15,7 +15,7 @@
     padding:10px;
     margin:5px;
     text-align: center;
-    background-color:rgb(253, 6, 68);
+    background-color:#184054;
     border:0px solid black;
     border-radius: 10px;
 }
@@ -32,7 +32,7 @@
     outline:0;
 }
 .data_button:hover {
-    background-color: red;
+    background-color: #0e2d3b;
     border-radius: 10px
 }
 .data_button_center:hover {
@@ -43,8 +43,18 @@
     text-decoration: none;
     color:white;
 }
+.writer_link {
+    text-decoration: none;
+    color:black;
+}
 .data_link:hover {
     text-decoration: none;
+}
+.writer {
+    background-color: transparent;
+    border:0px;
+    color:black;
+    border-bottom: 1px solid navy;
 }
 
 @media only screen and (max-width: 768px) {
